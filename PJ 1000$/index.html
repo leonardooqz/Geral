@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Mario</title>
+</head>
+
+<body>
+
+    <div class="mascara-formulario" onclick = "esconderform()"></div>
+
+    <div class="header">
+        <img src="./img/logo-header.png"/>
+        <a class="one">Home</a>
+        <a href="./nossosServiços.html" class="two">Nossos Serviços</a>
+    </div>
+
+    <div class="video-mario">
+        <video src="./img/video (1).mp4" autoplay muted loop> </video>
+        <div class="mascara-video"> </div>
+    </div>
+
+    <main class="caixa-mae">
+        <div class="caixa-principal">
+        <img src="./img/logo super mario.png" alt="imagemariobros" class="logo-mario" />
+        <p>
+         Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilo!
+        </p>
+        <p class="segundo-paragrafo">
+            Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+            entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+            Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!
+        </p>
+        <button onclick = "mostrarform()" > ENTRE EM CONTATO </button>
+    </div>
+        <aside class="caixa-ao-lado">
+            <img src="./img/mario&luigi.png" alt="imagemarioeluigi" class="mario-luigi" />
+        </aside>
+    </main>
+
+    <form class="formulario"
+        action="https://formcarry.com/s/PXMUOHN61r1"
+        method="POST"
+        enctype="multipart/form-data"> 
+            <input placeholder="Your Name" type="text" name="nome">
+            <input placeholder="Your Telephone " type="tel" name="telefone">
+            <textarea placeholder="Type Your Problem" name="duvidas"></textarea>
+            <button type="submit"> Pedir orçamento</button>
+    </form>
+
+    <a href="https://wa.me/5519993730021?text=quero+falar+com+o+mario%26luigi" class="link-whatsapp">
+        <img src="./img/whatsapp.png" >
+    </a>
+</body>
+    <script src="arquivo.js"></script>
+</html>
